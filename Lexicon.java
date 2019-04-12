@@ -7,10 +7,13 @@
  * https://github.com/allenerocha
  *
  * *********************/
+
 import java.io.*;
 import java.util.*;
+
 public class Lexicon implements LexiconInterface {
     private String filepath;
+
     @Override
     public void TreeCrawl(String filepath) {
         this.filepath = filepath;
@@ -160,6 +163,7 @@ public class Lexicon implements LexiconInterface {
 
     /**
      * Adds the word to the dictionary
+     *
      * @param word to be added to the dictionary
      */
     private void addToDictionary(String word) {
