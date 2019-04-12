@@ -8,7 +8,7 @@
  *
  * *********************/
 public class Main {
-    public static void main(String[] args)  {
+    public static void main(String[] args) {
         // MENU
         System.out.println("::MENU::\n1. Type\t2. Organize dictionary\n");
         java.util.Scanner scanner = new java.util.Scanner(System.in);
